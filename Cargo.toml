@@ -9,7 +9,7 @@ repository = "https://github.com/kevstewa/bm78x-tui"
 readme = "README.md"
 keywords = ["brymen", "multimeter", "bluetooth", "tui", "bm787"]
 categories = ["command-line-utilities", "hardware-support"]
-# The README links the screenshot by URL.
+# crates.io shows the README's screenshot from the repository.
 exclude = ["/docs"]
 
 [dependencies]

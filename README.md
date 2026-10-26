@@ -5,7 +5,7 @@ live readings, statistics, a trend plot and CSV logging, in pure Rust on
 Linux. It is built on the [bm78x](https://github.com/kevstewa/bm78x)
 library.
 
-![bm78x-tui showing DC volts, with statistics and a trend plot](https://github.com/kevstewa/bm78x-tui/raw/main/docs/screenshot.png)
+![bm78x-tui showing DC volts, with statistics and a trend plot](docs/screenshot.png)
 
 ## Requirements
 
