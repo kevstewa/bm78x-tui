@@ -2,7 +2,7 @@
 
 A terminal UI for the Brymen BM787BT and BM788BT Bluetooth multimeters:
 live readings, statistics, a trend plot and CSV logging, in pure Rust on
-Linux. It is built on the [bm78x](https://github.com/kevstewa/bm78x)
+Linux. It is built on the [bm78x](https://crates.io/crates/bm78x)
 library.
 
 ![bm78x-tui showing DC volts, with statistics and a trend plot](docs/screenshot.png)
@@ -36,7 +36,7 @@ The meters and the log directory are remembered in
 `~/.local/state/bm78x-tui/saved` (or under `$XDG_STATE_HOME`). The meter's
 clock is set to the host's local time on each connect.
 
-[TESTING.md](https://github.com/kevstewa/bm78x-tui/blob/main/TESTING.md)
-says what the tests check and what has been confirmed on a real meter.
+[TESTING.md](TESTING.md) says what the tests check and what has been
+confirmed on a real meter.
 
 Licensed under the MIT license.

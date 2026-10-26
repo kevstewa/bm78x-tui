@@ -12,7 +12,7 @@ The unit tests in `src/` cover the TUI's logic, its files, and its screens
 rendered to a test terminal. `tests/captures/` holds frames captured from a
 BM787BT, with what its LCD showed, to check the displayed text against. The
 decoding and the connection are tested in the
-[bm78x](https://github.com/kevstewa/bm78x) library.
+[bm78x](https://crates.io/crates/bm78x) library.
 
 ## Confirmed on a BM787BT
 
